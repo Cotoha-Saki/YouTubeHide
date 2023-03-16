@@ -1,0 +1,48 @@
+/* 何かを非表示 */
+div[id="scroll-container"] {
+  display: none;
+}
+
+/* 動画の・・・ボタンを非表示 */
+yt-button-shape[id="button-shape"] {
+  display: none;
+}
+
+/* コメントの低評価ボタンを非表示 */
+ytd-toggle-button-renderer[id="dislike-button"] {
+  display: none;
+}
+
+/* 動画の低評価ボタンを非表示 */
+div[id="segmented-dislike-button"] {
+  display: none;
+}
+
+/* 動画再生時の関連動画のミックスリストを非表示 */
+ytd-radio-renderer[class="style-scope ytd-item-section-renderer use-ellipsis"] {
+  right: 100000px;
+}
+
+/* 動画再生時の関連動画のミックスリストを非表示 */
+ytd-compact-radio-renderer[class="style-scope ytd-item-section-renderer use-ellipsis"] {
+  display: none;
+}
+
+/* 動画再生時の関連動画のミックスリストを非表示 */
+ytd-compact-radio-renderer[id="dismissible"] {
+  display: none;
+}
+
+/* 動画再生時の関連動画のミックスリストを非表示 */
+ytd-compact-radio-renderer[class="use-ellipsis style-scope ytd-item-section-renderer"] {
+  width: 0px;
+  height: 0px;
+  right: -10000px;
+}
+
+/* 動画再生時の関連動画にプレイリストを表示させない */
+ytd-compact-playlist-renderer[class="style-scope ytd-item-section-renderer"] {
+  width: 0px;
+  height: 0px;
+  right: -10000px;
+}

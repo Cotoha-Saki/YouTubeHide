@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Hide",
+  "version": "2.1.0",
+  "description": "YouTubeの一部を非表示にする拡張機能です。 ",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "css": ["css/main.css"]
+    }
+  ],
+
+  "author": "たなかぴよこ"
+}
