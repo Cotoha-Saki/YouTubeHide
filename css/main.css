@@ -24,5 +24,5 @@ ytd-compact-radio-renderer[class="use-ellipsis style-scope ytd-item-section-rend
 ytd-compact-playlist-renderer[class="style-scope ytd-item-section-renderer"] {
   width: 0px;
   height: 0px;
-  right: -10000px;
+  right: -10001px;
 }
